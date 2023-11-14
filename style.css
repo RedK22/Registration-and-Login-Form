@@ -95,3 +95,40 @@ body {
 .wrapper .btn:hover {
   background-color: #f2f2f2;
 }
+
+/*!Styling Forgot Password and Create Account  */
+
+.links {
+  font-size: 14px;
+  display: flex;
+
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.links a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.log-here {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+.log-here a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.log-here a:hover {
+  text-decoration: underline;
+}

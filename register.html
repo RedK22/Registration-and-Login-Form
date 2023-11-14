@@ -3,35 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Form</title>
-    <link rel="stylesheet" href="./style.css" />
 
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="./style.css" />
     <script src="./script.js"></script>
+
+    <title>Register Form</title>
   </head>
   <body>
     <div class="wrapper">
-      <div class="log-form">
+      <h1>Register</h1>
+      <div class="reg-form">
         <form>
-          <h1>Login</h1>
+          <div class="input-box">
+            <input type="text" required placeholder="Your Name" />
+            <i class="bx bx-user" style="color: #ffffff"></i>
+          </div>
+
           <div class="input-box">
             <input type="email" required placeholder="E-mail Address" />
             <i class="bx bx-envelope" style="color: #ffffff"></i>
           </div>
 
           <div class="input-box">
+            <input type="text" required placeholder="Mobile Number" />
+            <i class="bx bx-phone" style="color: #ffffff"></i>
+          </div>
+
+          <div class="input-box">
             <input type="password" required placeholder="Password" />
             <i class="bx bx-lock-alt" style="color: #ffffff"></i>
           </div>
-          <button class="btn">Login</button>
 
-          <div class="links">
-            <a href="./register.html" class="reg-here">Create Account</a>
-            <a href="#" class="forgot-pw">Forgot Password?</a>
+          <button class="btn">Register</button>
+
+          <div class="log-here">
+            <a href="./index.html">Have an account? Login here</a>
           </div>
         </form>
       </div>
