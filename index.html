@@ -19,15 +19,27 @@
         <form>
           <h1>Login</h1>
           <div class="input-box">
-            <input type="email" required placeholder="E-mail Address" />
+            <input
+              id="emailInput"
+              type="email"
+              required
+              placeholder="E-mail Address"
+            />
             <i class="bx bx-envelope" style="color: #ffffff"></i>
           </div>
 
           <div class="input-box">
-            <input type="password" required placeholder="Password" />
+            <input
+              id="passInput"
+              type="password"
+              required
+              placeholder="Password"
+            />
             <i class="bx bx-lock-alt" style="color: #ffffff"></i>
           </div>
-          <button class="btn">Login</button>
+          <button type="button" onclick="checkCreds()" class="btn">
+            Login
+          </button>
 
           <div class="links">
             <a href="./register.html" class="reg-here">Create Account</a>
