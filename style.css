@@ -13,7 +13,7 @@ body {
   align-items: center;
   height: 100vh;
 
-  /* background: url("./img.jpg"); */
+  background: url("./img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -131,4 +131,14 @@ a:visited {
 
 .log-here a:hover {
   text-decoration: underline;
+}
+
+#mobno::-webkit-inner-spin-button,
+#mobno::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#mobno {
+  -moz-appearance: textfield;
 }
