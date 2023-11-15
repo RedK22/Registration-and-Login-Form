@@ -133,6 +133,8 @@ a:visited {
   text-decoration: underline;
 }
 
+/*! Removing scroll thing from Mobile Number */
+
 #mobno::-webkit-inner-spin-button,
 #mobno::-webkit-outer-spin-button {
   -webkit-appearance: none;
